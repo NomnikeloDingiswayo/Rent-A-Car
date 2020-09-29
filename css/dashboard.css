@@ -1,0 +1,164 @@
+
+
+body
+{
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.3), rgba( 0, 0, 0, 0.3)), url(/images/934095754_4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.thank{
+    font-size: 30px;
+    color: rgb(240, 234, 234);
+}
+
+.HisTable{
+       border:solid rgb(220, 231, 220);
+        font-size: large;
+         padding: 5px;
+        width:100% 
+        }  
+
+.ion-card {
+    font-size: 180%;
+    margin-right: 20px;
+    color: rgba(209, 105, 20, 0.863);
+    transition: all 1s;
+
+}
+
+.ion-cash {
+    font-size: 180%;
+    margin-right: 20px;
+    color: green;
+    transition: all 1s;
+}
+
+
+
+.data {
+    margin-left: 0;
+    list-style-type: none;
+}
+
+.data ul{
+    
+    font-size: 110%;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+
+.data ul i{
+    font-size: 180%;
+    margin-right: 20px;
+    color: inherit;
+    transition: all 1s;
+}
+
+
+nav {
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    height: auto;
+  min-height: 70px;
+  line-height: 70px;
+    
+}
+.menu {
+    margin: 0 30px 0 0;
+    text-align: right;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    line-height: 70px;
+   
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+        
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid white;
+        margin: 0;
+        font-size: large;
+      
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+       
+        
+    }
+    .thank{
+        font-size: large;
+        
+    }  
+    
+    .HisTable{
+        padding: 5px;
+        width:130% 
+    }  
+}
+
+
+@media only screen and (max-width: 768px) {
+      
+   
+        label {
+            display: block;
+            cursor: pointer;
+        }
+        .menu {
+            text-align: center;
+            width: 100%;
+            display: none;
+        }
+        .menu a {
+            display: block;
+            border-bottom: 1px solid #EAEAEB;
+            margin: 0;
+         
+        }
+        #toggle:checked + .menu {
+            display: block;
+        }
+        
+    .HisTable{
+        padding: 5px;
+        width:130% 
+    }  
+  
+}

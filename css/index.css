@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 5px;
+    border: none;
+}
+
+html,
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+}
+
+
+
+/*header image*/
+
+header {
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.3), rgba( 0, 0, 0, 0.3)), url(/images/934095754_4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+
+    
+
+.nav {
+    text-align: right;
+    height: 70px;
+
+}
+.menu {
+    margin: 0 30px 0 0;
+    text-align: right;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: #843938;
+    margin: 0 10px;
+    line-height: 70px;
+    font-size: 23px;;
+   
+}
+
+.label {
+    margin: 0 40px 0 0;
+    font-size: 30px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: left;
+}
+#toggle {
+    display: none;
+
+}
+
+
+.heroText {
+    width: 800px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+   
+}
+
+.heroText h1 {
+    font-size: 250%;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.btnRes {
+    border: 3px solid #843938;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+.btnRes:hover {
+    background-color:#843938;
+}
+
+
+/*button*/
+
+.btn {
+    letter-spacing: 0.5px;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 10px;
+    font-size: 120%;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
+.btn{
+        border: 3px solid #843938;
+        border-radius: 10px;
+        transition: background-color 0.5s;
+    }
+    
+.btn:hover {
+        background-color: #843938;
+    }
+
+.info {
+    float: right;
+    color:#843938;
+    height: 300px;
+    font-size: large;
+}
+    
+/*divider*/
+
+.divider1 {
+    height: 80vh;
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.3), rgba( 0, 0, 0, 0.3)), url(/images/woman-putting-on-seatbelt-min-300x200.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dividerTextBox {
+    text-align: right;
+    width: 1140px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: 300;
+    font-size: 120%;
+    line-height: 150%;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba( 255, 255, 255, 0.4);
+}
+
+.dividerTextBox h2 {
+    font-size: 150%;
+    font-weight: 300;
+}
+
+.dividerTextBox p {
+    margin: 20px 0;
+}
+
+
+.contact h1{
+    text-transform: uppercase;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.data{
+    margin-left: 0;
+    list-style-type: none;
+}
+
+ .data ul {
+    list-style: none;
+    font-size: 110%;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+
+.data ul i{
+    font-size: 180%;
+    margin-right: 20px;
+    color: inherit;
+    transition: all 1s;
+}
+
+
+.box-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.single-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #843938;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: .3s;
+}
+.img-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 6px solid #dddddd;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 20px;
+    -webkit-backround-size:cover;
+    background-size: cover;
+    background-position: center center;
+}
+.single-box:nth-child(1) .img-area{
+    background-image:url(/images/Sports-Car-Free-Icon.jpg) ;
+
+}
+.single-box:nth-child(2) .img-area{
+    background-image: url(/images/target-arrow-target-icon.jpeg);
+
+}
+.single-box:nth-child(3) .img-area{
+    background-image:url(/images/icon-service.jpg) ;
+
+}
+
+
+.header-text{
+font-size: 24px;
+font-weight: 500;
+line-height: 48px;
+}
+.img-text{
+    font-family:Poppins;
+    padding-top: 20px;
+
+}
+.img-text p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.single-box:hover{
+    background: #843938;
+    color: #000000;
+}
+
+@media(max-width:768px){
+    label {
+        display: block;
+        cursor: pointer;
+        float: right;
+        font-size: 30px;
+
+        
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+       
+     
+    }
+    .menu a {
+        display: block;
+       border-bottom: 1px solid white;
+        margin: 0;
+        line-height: 15px;
+       
+     
+    }
+
+
+    #toggle:checked + .menu {
+        display: block;
+        
+    }
+    .heroText{
+        margin-left: -30%;
+    
+        
+}
+    .heroText h1{
+        font-size: x-large;
+    }
+   .info{
+   
+    margin-right: -80px;
+       
+   }
+   .dividerTextBox {
+       text-align: center;
+   }
+   
+
+
+}
+
+
+@media only screen and (max-width: 500px) {
+   
+   
+   
+    .label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+     
+    }
+    .menu a {
+        clear: right;
+        text-decoration: none;
+        color: #843938;
+        margin: 0 10px;
+        line-height: 20px;
+        
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+        
+    }
+    .info{
+       margin-bottom: -40px;
+    }
+    .heroText{
+       margin-left: -48%;
+    
+    }
+    .heroText h1{
+        font-size: large;
+
+    }
+
+    .dividerTextBox h2 {
+        font-size: x-large;
+    }
+    .dividerTextBox p{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .single-box:hover{
+        background: #000000;
+        color: #843938;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rent-A-Car| Payments</title>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="css/payments.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	
+	<header>
+    <div class="nav">
+                
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle"/>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="listings.html">Listings</a>
+        <a href="booking.html">Bookings</a>
+        <a href="payments.html">Payments</a>
+      </div>
+    
+	</header>
+    <br />
+    <div class="checkout_form">
+        <div class="card_number" id="card-container">
+            <input type="text" class="input" id="card" placeholder="card number"> 
+            <div id="logo"></div>
+            <br/>
+            <div class="card_holder" id="card-container">
+                <input type="text" class="input" id="card" placeholder="card holder"> 
+                <div id="logo"></div>
+                <br/>
+        </div>
+        <div class="card_grp">   
+          <div class="expiry_date">
+            <input type="text" class="expiry_input" data-mask="00"  placeholder="month">
+            <input type="text" class="expiry_input" data-mask="00" placeholder="year">
+          </div>
+          <div class="cvc">
+            <input type="text" class="cvc_input" data-mask="000" placeholder="cvc">
+            <div class="cvc_img">
+                ?
+               <div class="img">
+                 <img src="images/cvv.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn">
+            <a href="dashboard.html" class="btn btn-primary">PAY</a>
+        </div>
+    </div>
+   
+
+    
+</body>
+</html>

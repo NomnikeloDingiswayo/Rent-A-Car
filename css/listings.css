@@ -1,0 +1,246 @@
+
+.nav {
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    height: auto;
+  min-height: 70px;
+  line-height: 70px;
+    
+}
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+
+
+.label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+    
+}
+
+
+.box-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.single-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #843938;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: .3s;
+}
+.img-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 6px solid #dddddd;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 20px;
+    -webkit-backround-size:cover;
+    background-size: cover;
+    background-position: center center;
+}
+.single-box:nth-child(1) .img-area{
+    background-image:url(/images/images.jpeg) ;
+
+}
+.single-box:nth-child(2) .img-area{
+    background-image: url(/images/kia_picanto.jpg);
+
+}
+.single-box:nth-child(3) .img-area{
+    background-image:url(/images/suv_trucks-1-300x181.png) ;
+
+}
+.single-box:nth-child(4) .img-area{
+    background-image:url(/images/toyotaRav.jpg) ;
+
+}
+.single-box:nth-child(5) .img-area{
+    background-image: url(/images/mercCclass.jpg);
+
+}
+.single-box:nth-child(6) .img-area{
+    background-image: url(/images/vwPoloVivo.jpg);
+
+}
+.header-text{
+font-size: 24px;
+font-weight: 500;
+line-height: 48px;
+}
+.img-text{
+    font-family:Poppins;
+    padding-top: 20px;
+
+}
+.img-text p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.single-box:hover{
+    background: #843938;
+    color: #000000;
+
+}
+ul.cars{
+    list-style-type: none;
+    text-align: justify;
+}
+
+
+h1
+{
+	
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align:center;
+    color: whitesmoke;
+}
+
+body
+{
+    background: #262626;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	color: white;
+	
+	margin:0;
+}
+
+
+
+.btn {
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 10px;
+    font-size: 120%;
+    font-weight: 300;
+    cursor: pointer;
+}
+.btn {
+    
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    color: white;
+    
+}
+
+.btn:hover {
+    background-color:#262626;
+}
+
+
+  
+.box{
+    border: 1px solid #aa2121;
+    width: 80px;
+    margin: inherit;
+}
+
+.data{
+    margin-left: 0;
+    list-style-type: none;
+}
+
+.data ul {
+    list-style: none;
+    font-size: 110%;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+
+.data ul i{
+    font-size: 180%;
+    margin-right: 20px;
+    color: inherit;
+    transition: all 1s;
+}
+
+@media only screen and (max-width: 768px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+        font-size: 20px;
+        
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+    
+}
+
+
+
