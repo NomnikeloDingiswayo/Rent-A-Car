@@ -21,7 +21,7 @@
 
 
 
-label{
+.label{
     margin: 0 40px 0 0;
     font-size: large;
     display: none;               
@@ -48,6 +48,13 @@ body
 .form{
     width: 800px;
     margin-top: 0px;
+    line-height: 40px;
+    padding: 20px;
+    
+}
+
+.form  label {
+    margin-right:50px;
 }
 
 .data{
